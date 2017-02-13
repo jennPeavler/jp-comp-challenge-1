@@ -127,7 +127,7 @@ img {
 }
 
 #right-side {
-  background-image: url("images/cover-photo.jpg");
+  background-image: url("cover-photo.jpg");
   background-position: center;
   background-size: cover;
   height: 705px;
@@ -219,9 +219,10 @@ img {
 
   #right-side {
     background: #7AB038;
-    background-image: url("images/cover-photo.jpg");
+    background-image: url("cover-photo.jpg");
     background-position: center;
-    background-repeat: no-repeat;      background-size: contain;
+    background-repeat: no-repeat;
+    background-size: contain;
     height: 800px;
     width: 50%;
     }
@@ -293,7 +294,7 @@ img {
   }
 
   #right-side {
-    background-image: url("images/cover-photo.jpg");
+    background-image: url("cover-photo.jpg");
     background-position: center;
     background-size: cover;
     height: 345px;
