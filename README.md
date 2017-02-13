@@ -2,4 +2,4 @@
 Minx Monsoon static comp challenge
 
 
-![original comp](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
+![original comp](https://github.com/jennPeavler/jp-comp-challenge-1/blob/master/static-comp-challenge-1.jpg)
