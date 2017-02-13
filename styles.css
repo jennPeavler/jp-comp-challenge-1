@@ -1,0 +1,323 @@
+#arrow-wrapper {
+  position: relative;
+  top: 50%;
+  width: 100%;
+}
+
+.bio-info {
+  border: solid 2px #FFFFFF;
+  display: inline-block;
+  height: 30px;
+  margin-right: 15px;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 15px;
+  text-align: center;
+  width: 30%;
+}
+
+body {
+  background: #1B5156;
+}
+
+.center {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#container {
+  display: flex;
+}
+
+#eight {
+  background: #43A1CE;
+  height: 235px;
+  width: 33.4%;
+  text-align: center;
+}
+
+#five {
+  background: #1B5156;
+  height: 235px;
+  width: 33.4%;
+  text-align: center;
+}
+
+#four {
+  background: #88B83F;
+  height: 235px;
+  width: 33.3%;
+  text-align: center;
+}
+
+h2 {
+  letter-spacing: 1px;
+}
+
+#high-five {
+  margin-top: -12px;
+  z-index: 100;
+}
+
+img {
+  height: 70px;
+  width: 70px;
+}
+
+#left-arrow {
+  height: 55px;
+  opacity: 0.2;
+  width: 55px;
+}
+
+#left-wrapper {
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 14px;
+  width: 60%;
+}
+
+#nav-dots {
+  display: block;
+  float: right;
+  height: 15px;
+  opacity: 0.7;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  width: 45px;
+}
+
+#one {
+  width: 66.7%;
+  height: 235px;
+  background: #1B5156;
+  align-items: flex-start;
+}
+
+#one-wrapper {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+#paw {
+  width: 120px;
+  height: 120px;
+}
+
+#paw-wrapper {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: -24px;
+}
+
+#right-arrow {
+  float: right;
+  height: 55px;
+  opacity: 0.2;
+  right: 0;
+  transform: rotate(180deg);
+  transform: rotateY(180deg);
+  width: 55px;
+}
+
+#right-side {
+  background-image: url("images/cover-photo.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 705px;
+  width: 40%;
+}
+
+#seven {
+  background: #672B79;
+  height: 235px;
+  width: 33.3%;
+  text-align: center;
+}
+
+#six {
+  background: #43A1CE;
+  height: 235px;
+  width: 33.3%;
+  text-align: center;
+}
+
+#three {
+  background: #672B79;
+  height: 235px;
+  width: 33.3%;
+  text-align: center;
+}
+
+#two {
+  background: #E2B553;
+  height: 235px;
+  width: 33.3%;
+  text-align: center;
+}
+
+@media screen and (min-width: 1400px) {
+
+  body {
+    background: #FFFFFF;
+  }
+
+  #container {
+    width: 90%;
+    margin: 5% auto;
+  }
+
+  #nav-dots {
+    position: relative;
+  }
+
+  #right-arrow {
+    position: relative;
+    margin-right: -10% ;
+  }
+
+}
+
+@media screen and (max-width: 810px) {
+
+  #eight {
+    background: #E2B553;
+    height: 200px;
+    width: 100%;
+  }
+
+  #five {
+    height: 200px;
+    width: 33.333%;
+  }
+
+  #four {
+    background: #E2B553;
+    height: 200px;
+    width: 33.34%;
+    text-align: center;
+  }
+
+  #left-wrapper {
+    width: 50%;
+  }
+
+  #one {
+    height: 200px;
+    width: 100%;
+  }
+
+  #one-wrapper {
+    margin-top: -10px;
+  }
+
+  #right-side {
+    background: #7AB038;
+    background-image: url("images/cover-photo.jpg");
+    background-position: center;
+    background-repeat: no-repeat;      background-size: contain;
+    height: 800px;
+    width: 50%;
+    }
+
+  #seven {
+    height: 200px;
+    width: 33.34%;
+  }
+
+  #six {
+    height: 200px;
+    width: 33.333%;
+  }
+
+  #three {
+    height: 200px;
+    width: 33.333%;
+  }
+
+  #two {
+    background: #88B83F;
+    height: 200px;
+    text-align: center;
+    width: 33.333%;
+  }
+
+}
+
+@media screen and (max-width: 645px) {
+  .bio-info {
+    width: 35%;
+  }
+
+}
+
+@media screen and (max-width: 552px) {
+
+  #container {
+    flex-direction: column-reverse;
+  }
+
+  #eight {
+    background: #E2B553;
+    height: 200px;
+    width: 100%;
+  }
+
+  #five {
+    height: 200px;
+    width: 50%;
+  }
+
+  #four {
+    height: 200px;
+    width: 50%;
+  }
+
+  #left-wrapper {
+    width: 100%;
+  }
+
+  #one {
+    height: 200px;
+    width: 100%;
+  }
+
+  #one-wrapper {
+    margin-top: -15px;
+  }
+
+  #right-side {
+    background-image: url("images/cover-photo.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 345px;
+    width: 100%;
+  }
+
+  #seven {
+    height: 200px;
+    width: 50%;
+  }
+
+  #six {
+    height: 200px;
+    width: 50%;
+  }
+
+  #three {
+    height: 200px;
+    width: 50%;
+  }
+
+  #two {
+    width: 50%;
+    height: 200px;
+  }
+
+}
